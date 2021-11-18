@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Games</title>
+</head>
+<body background="images/game.jpg" style="background-repeat: no-repeat;background-size:100%;">
+
+    <style>
+/* design */
+.design{
+    padding: 4.5rem 0;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+    color: #fff;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+    
+}
+.design-content{
+    margin: 2rem 0;
+}
+.design-item{
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+.design-img{
+    position: relative;
+    overflow: hidden;
+}
+.design-img::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.design-img img{
+    transition:  all 0.5s ease;
+}
+.design-item:hover img{
+    transform: scale(1.2);
+}
+.design-img span:first-of-type{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background: var(--exDark);
+    color: #fff;
+    padding: 0.25rem 1rem;
+}
+.design-img span:last-of-type{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.design-title{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #fff;
+}
+.design-title a{
+    color: var(--dark);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--Playfair);
+}
+
+    </style> 
+    <!-- design -->
+    <section class = "design" id = "design">
+        <div class = "container">
+          <div class = "title">
+            <h2>Recent Games Released</h2>
+          </div>
+  
+          <div class = "design-content">
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/FIFA22.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>FIFA22</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 2999</p>
+                <p>Release: 30 September 2021</p>
+                <p>Rating: 7/10 IGN   76% PC Gamer   3/5 NDTV Gadgets 360</p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/marvel.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Marvel's Guardians of the Galaxy</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 2990</p>
+                <p>Release date: 26 October 2021</p>
+                <p>Rating: 77% Metacritic
+                  5/5 Common Sense Media
+                  4/5 Trusted Reviews</p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/vanguard.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Call of Duty: Vanguard</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 3999</p>
+                <p>Release date: 10 September 2021</p>
+                <p>Rating: 82% Metacritic
+                  8/10 PCGamesN
+                  3/5 Eurogamer</p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/far.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Far Cry 6</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 3599</p>
+                <p>Release date: 6 October 2021</p>
+                <p>Rating: 75% Metacritic
+                  8/10 IGN
+                  75% PC Gamer</p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/age.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Age of Empires IV</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 2499 </p>
+                <p>Release date: 5 August 2021</p>
+                <p>Rating: 82% Metacritic
+                  8/10 IGN
+                  84% OpenCritic</p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/b4b.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Back 4 Blood</span>
+              </div>
+              <div class = "design-title">
+                <p>Cost: RS 2999</p>
+                <p>Release date: 8 October 2021</p>
+                <p>Rating: 78% Metacritic
+                  8/10 IGN
+                  3/5 PCMag</p>
+              </div>
+            </div>
+            <!-- end of item -->
+          </div>
+        </div>
+      </section>
+      <!-- end of design -->
+
+</body>
+</html>
